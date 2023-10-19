@@ -21,7 +21,11 @@ public class VideoConverterFacadeImpl implements VideoConverterFacade {
         commonSoundProcessor.process(filename);
         videoDAO.save(filename);
 
-
+        /*
+             ...
+             another processing methods with several classes/interfaces,
+             call of methods etc with complicated calls chain
+         */
 
     }
 }
